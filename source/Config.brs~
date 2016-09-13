@@ -1,0 +1,8 @@
+Function Config() As Object
+  this = {
+    liveUrl: "https://goodnewsmedia.net"
+    stagingUrl: "http://staging.goodnewsmedia.net"
+  }
+  return this
+
+End Function
